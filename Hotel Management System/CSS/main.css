@@ -1,0 +1,248 @@
+ @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Playpen+Sans+Hebrew:wght@100..800&display=swap');
+
+body{ 
+    background-color: rgb(253, 206, 214);
+    font-family: "Playpen Sans Hebrew";
+}
+
+h1{ 
+    margin: 0;
+    color: white;
+    font-size: 25px;
+}
+p{
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.title{
+    color: rgba(75, 4, 97, 0.76);
+    font-family: "Playpen Sans Hebrew" , cursive;
+    font-size: 17px;
+    margin: 5px;
+}
+
+
+
+.ticket-section{    
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 90vh;
+    background-color: rgba(243, 165, 178, 0.733);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.background-ticket{
+    display: flex;
+    align-items: center; 
+    background-color: whitesmoke;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.ticket{ 
+    position: relative;
+    border: none;
+    height: 61vh;
+    width: 150vh;
+    border-radius: 20px;
+    background-color: rgba(252, 178, 252, 0.863);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+}
+
+.border-top{ 
+    position: relative;
+    display: flex;
+    background-color: rgb(153, 0, 153);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.hotel-name-title{
+    position: absolute;
+    left: 200px;
+}
+
+.hotel-name{ 
+    font-size: 30px;
+}
+
+.room-reserve-title{ 
+    position: absolute;
+    left: 55%;
+}
+
+.room-reserve-name{ 
+    font-size: 18px;
+}
+
+.CustomerInfo-title{ 
+    position: absolute;
+    right: 10px;
+}
+
+.CustomerInfo-name{ 
+    font-size: 25px;
+}
+
+
+.circle{ 
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    width: 130px;
+    height: 130px;
+    border-radius: 90px;
+    background-color: rgb(245, 147, 215);
+}
+
+.hotel-icon-top{ 
+    position: relative;
+    top: 20px;
+    left: 38px;
+    width: 80px;
+}
+
+
+
+.border-bottom{ 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    background-color: rgb(153, 0, 153);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.circle-bottom{ 
+    position: absolute;
+    border-radius: 50px;
+    background-color: rgb(245, 147, 215);
+    width: 80px;
+    height: 80px;
+    right: 15px;
+    bottom: 10px;
+}
+
+
+.hotel-icon-bottom{
+    position: relative;
+    top: 15px;
+    left: 22px;
+    width: 50px;
+}
+
+
+.inside-ticket{ 
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.customer-Info-section{ 
+    padding: 15px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.customer-info{ 
+    display: flex;
+    flex-direction: column;
+}
+
+.customer-name{
+    display: flex;
+    gap: 0;
+}
+
+
+.address-info{ 
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.date-info{ 
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+
+.room-info{ 
+    display: flex;
+    flex-direction: column;
+}
+
+
+.rip-name{ 
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.names{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.rip-ticket{
+    display: flex;
+    flex-direction: column;
+    border-left: 5px dashed rgb(36, 36, 36);
+    text-align: center;
+    background-image:url(../Images/BeachSunSetBG.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 255, 255, 0.329);
+
+
+}
+
+.rip-info{ 
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 5px;
+   
+}
+
+
+
+
+.barcode-section{
+    background-color: rgb(253, 253, 253);
+    width: 250px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    border-right: 5px solid black ;
+}
+
+.barcode{ 
+    position: absolute;
+    left: 0;
+    margin: 0;
+    width: 250px;
+    height: 160px;
+    transform: rotate(-90deg);
+}

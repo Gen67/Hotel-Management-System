@@ -5,7 +5,10 @@
 
 body{ 
     display: flex;
-    background-color: rgb(245, 201, 245);
+    background-image: url(../Images/BeachSunSetBG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -19,7 +22,8 @@ body{
     flex-direction: column;
     border: 1px solid gray;
     border-radius: 20px;
-    background-color: rgba(250, 212, 255, 0.87);
+    background-color: rgba(223, 143, 233, 0.288);
+    backdrop-filter: blur(5px);
     box-shadow: rgba(0, 0, 0, 0.781) 0px 5px 15px;
     height: 600px;
     position: relative;
@@ -57,6 +61,20 @@ body{
 }
 
 
+
+
+.title{ 
+    padding: 20px;
+    border: 1px solid rgba(238, 167, 208, 0.068);
+    box-shadow: rgba(255, 178, 245, 0.4) 0px 0px 0px 2px, rgba(255, 164, 255, 0.65) 0px 4px 6px -1px, rgba(251, 130, 255, 0.08) 0px 1px 0px inset;
+    border-radius: 5px;
+    background-color: rgba(252, 177, 255, 0.315);
+    backdrop-filter: blur(5px);
+}
+
+
+
+
 button{ 
     font-family: "Playpen Sans Hebrew";
     width: 200px;
@@ -89,7 +107,8 @@ input:focus{
 select{ 
     width: 100px;
     font-family: "Playpen Sans Hebrew";
-    background-color: rgb(255, 167, 229);
+    background-color: rgba(255, 167, 229, 0.397);
     color: rgb(10, 10, 10);
     font-weight: bolder;
+     backdrop-filter: blur(5px);
 }
