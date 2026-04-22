@@ -29,6 +29,7 @@ p{
     border: 1px solid gray;
     border-radius: 10px;
     height: 90vh;
+    margin-left: 10em ;
     background-color: rgba(243, 165, 178, 0.733);
     display: flex;
     justify-content: center;
@@ -48,12 +49,13 @@ p{
 .ticket{ 
     position: relative;
     border: none;
-    height: 61vh;
-    width: 150vh;
+    height: 30em;
+    width: 75em;
     border-radius: 20px;
     background-color: rgba(252, 178, 252, 0.863);
     backdrop-filter: blur(8px);
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+    
 }
 
 .border-top{ 
@@ -208,12 +210,15 @@ p{
     flex-direction: column;
     border-left: 5px dashed rgb(36, 36, 36);
     text-align: center;
-    background-image:url(../Images/BeachSunSetBG.jpg);
+    background-image: url(../Images/HotelRoom.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(10px);
-    background-color: rgba(0, 255, 255, 0.329);
+    background-color: rgba(92, 33, 94, 0.616);
+    background-blend-mode: multiply;
+    color: rgb(255, 255, 255);
+    border-bottom-right-radius: 20px;
 
 
 }
@@ -236,6 +241,7 @@ p{
     display: flex;
     align-items: center;
     border-right: 5px solid black ;
+    border-bottom-left-radius: 20px;
 }
 
 .barcode{ 
@@ -246,3 +252,7 @@ p{
     height: 160px;
     transform: rotate(-90deg);
 }
+
+
+
+

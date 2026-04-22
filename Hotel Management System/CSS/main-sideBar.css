@@ -1,0 +1,37 @@
+.sideBar{ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 100vh;
+    background-color: rgb(165, 92, 137);
+    overflow-y: auto;
+    border-right: 1px solid black ;
+    gap: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.title-side{ 
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.side-btn{
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    transition: 1s;
+}
+
+.side-btn:hover{ 
+    transform: scale(1.5);
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    
+}
